@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta charset="utf-8">
+    <link href="styles/theme.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/pdf.js/pdf.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/pdf.js/pdf.worker.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/open.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Open PDF</h1>
+    </div>
+    <div class="subheader">
+        <div id="pager" class="row">
+            <div class="col">
+                <button id="prevBtn" class="button">Previous Page</button>
+            </div>
+            <div class="col">
+                <button id="nextBtn" class="button">Next Page</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col u-color-accent u-text-center">
+                <span>Page: <span id="pageNum"></span> / <span id="pageCount"></span></span>
+            </div>
+        </div>
+    </div>
+    <div class="content -scrollable">
+        <canvas id="the-canvas"></canvas>
+    </div>
+    <div class="subfooter">
+        <div class="row">
+            <div class="col u-text-center">
+                <label id="errorLabel" class="u-color-accent"></label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col u-text-center">
+                <a id="backBtn" class="button -negative" href="index.html">Back to Home</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <span>Developer Examples</span>
+    </div>
+</body>
+</html>

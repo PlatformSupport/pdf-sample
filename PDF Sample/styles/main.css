@@ -1,0 +1,16 @@
+/* specific */
+.input.textarea {
+    height: 84px;
+}
+
+img {
+    width: 50%;
+}
+
+a.button {
+    text-decoration: none;
+}
+
+.-scrollable {
+    overflow: auto;
+}

@@ -1,0 +1,51 @@
+{
+  "ProjectName": "PDF_Sample",
+  "ProjectGuid": "49c37612-6f14-4988-8f7b-93e16f3242d1",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.PDFSample",
+  "DisplayName": "PDF_Sample",
+  "Author": "",
+  "Description": "PDF_Sample",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "4.0.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "true",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{cdcebb4f-61f6-46b3-9bbc-275c0a630c9a}",
+  "WP8ProductID": "{42fa8f13-16d8-45f6-8790-db1b54fa074e}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.PDFSample",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ],
+  "CorePlugins": [
+    "cordova-plugin-file",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-whitelist"
+  ]
+}
